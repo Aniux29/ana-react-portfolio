@@ -1,0 +1,32 @@
+{
+  "name": "ana-react-portfolio",
+  "version": "0.1.0",
+  "keywords": [
+    "react",
+    "reactjs",
+    "styled-components",
+    "website"
+  ],
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "start": "parcel ./src/index.html -p 1337"
+  },
+  "author": "Ana Lopez",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.1",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4",
+    "styled-components": "^5.0.1"
+  }
+}
